@@ -12,8 +12,10 @@ nav {
 
 nav a {
     color: var(--text-color);
-    display: block;
+    display: flex;
+    justify-content: space-evenly;
     padding: var(--main-padding);
+    align-items: center;
 }
 
 h1 {
@@ -45,6 +47,9 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
+    grid-row: 1;
+    position: relative;
+
 }
 
 aside img {
@@ -64,6 +69,17 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+header,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+body {
+    font-size: 16px;
+    font-family: Roboto, Arial, sans-serif;
 }
 
 /* Hi My name is Anny */

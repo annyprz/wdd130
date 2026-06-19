@@ -251,3 +251,11 @@ td {
     padding: 10px;
     text-align: center;
 }
+
+nav {
+    background-color: var(--secondary-color);
+}
+
+footer {
+    background-color: var(--accent1-color);
+}
